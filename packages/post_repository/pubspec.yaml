@@ -1,0 +1,15 @@
+name: post_repository
+description: Dart package which manages the user domain
+version: 1.0.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  equatable: ^1.2.0
+  meta: ^1.1.8
+  uuid: ^2.1.0
+  intl: ^0.16.1
+  http: ^0.12.2
+  user_repository:
+    path: lib/../../user_repository
